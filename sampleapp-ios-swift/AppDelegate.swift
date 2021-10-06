@@ -1,8 +1,8 @@
 
 import UIKit
-//import AppCenter
-//import AppCenterAnalytics
-//import AppCenterCrashes
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,12 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Enabled App Center SDK verbose logs
-//        AppCenter.logLevel = .verbose
-//        
-//        AppCenter.start(withAppSecret: "b9656bb8-80d1-48c5-b9aa-49976b7d2a5d", services: [
-//            Analytics.self,
-//            Crashes.self,
-//        ])
+        AppCenter.logLevel = .verbose
+        
+        AppCenter.start(withAppSecret: "b9656bb8-80d1-48c5-b9aa-49976b7d2a5d", services: [
+            Analytics.self,
+            Crashes.self,
+        ])
         
         return true
     }
