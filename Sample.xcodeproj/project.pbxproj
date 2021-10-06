@@ -501,8 +501,6 @@
 			baseConfigurationReference = 5E9736C92A70277D476D0E30 /* Pods-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JB73KN4XYE;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
@@ -522,8 +520,6 @@
 			baseConfigurationReference = C08A4C9A6807CA879CCC16BF /* Pods-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JB73KN4XYE;
 				INFOPLIST_FILE = "$(SRCROOT)/sampleapp-ios-swift/Info.plist";
