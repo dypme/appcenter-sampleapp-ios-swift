@@ -1,6 +1,6 @@
 platform :ios, '10.0'
 
-target 'sampleapp-ios-swift' do
+target 'Sample' do
   use_frameworks!
 
   pod 'AppCenter'
@@ -8,7 +8,7 @@ target 'sampleapp-ios-swift' do
   pod 'AppCenter/Crashes'
   pod 'AppCenter/Distribute'
 
-  target 'sampleapp-ios-swiftUITests' do
+  target 'SampleUITests' do
     inherit! :search_paths
     # Pods for testing
     pod 'VSMobileCenterExtensions'
